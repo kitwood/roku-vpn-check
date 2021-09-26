@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="GeoIP" extends="Scene">
+    <script type="text/brightscript" uri="GeoLocationScene.brs" />
+
+    <children>
+        <Group id="infoGroup">
+
+            <Label id="ipLabel"
+                width="1280"
+                height="50"
+                horizAlign="center"
+                vertAlign="center" />
+
+            <Label id="geoCountryLabel"
+                width="1280"
+                height="100"
+                horizAlign="center"
+                vertAlign="center" />
+
+            <Label id="geoExtendedLabel"
+                width="1280"
+                height="50"
+                horizAlign="center"
+                vertAlign="top" />
+
+            <Poster id="geoFlagPoster"
+                width="64"
+                height="34" />
+
+            <Label id="localeLabel"
+                width="1280"
+                height="50"
+                horizAlign="center"
+                vertAlign="center" />
+
+        </Group>
+
+        <Button id="reloadBtn"
+            text="Reload" 
+            iconUri=""
+            showFocusFootprint = "true" />
+    </children>
+</component>
