@@ -73,7 +73,6 @@ sub onLocationChange()
 end sub
 
 sub onReload()
-    m.ipTask.wan_ip = ""
-    m.geoTask.location = invalid
-    m.ipTask.control = "RUN"
+    m.geoTask.data = invalid
+    m.geoTask.control = "RUN"
 end sub

@@ -2,7 +2,7 @@ title=VPN Checker
 
 major_version=1
 minor_version=0
-build_version=0
+build_version=1
 
 network_not_required=0
 
@@ -20,4 +20,4 @@ splash_screen_hd=pkg:/images/splash-screen_hd.jpg
 splash_screen_sd=pkg:/images/splash-screen_sd.jpg
 
 splash_color=#000000
-splash_min_time=1
+splash_min_time=2000
