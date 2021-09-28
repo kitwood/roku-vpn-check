@@ -27,11 +27,18 @@
                 width="64"
                 height="34" />
 
-            <Label id="localeLabel"
+            <Label id="deviceInfoLabel"
                 width="1280"
-                height="50"
+                height="30"
                 horizAlign="center"
                 vertAlign="center" />
+
+            <Label id="channelStoreLabel"
+                width="1280"
+                height="30"
+                horizAlign="center"
+                vertAlign="center" 
+                visible="false" />
 
         </Group>
 
